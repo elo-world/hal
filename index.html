@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>hal - Your Helper to Automate Your Life</title>
+        <meta
+            name="description"
+            content="hal is a connected tablet and smartwatch that helps elderly people live independently while staying close to their families."
+        />
+        <meta name="theme-color" content="#FEF8E1" />
+
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="hal - Your Helper to Automate Your Life"
+        />
+        <meta
+            property="og:description"
+            content="A connected tablet and smartwatch that helps elderly people live independently while staying close to their families."
+        />
+
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js" defer></script>
+    </head>
+    <body id="top">
+        <!-- Icon sprite (referenced with <use href="#i-…">) -->
+        <svg class="sprite" aria-hidden="true" focusable="false">
+            <symbol id="i-home" viewBox="0 0 49 61">
+                <path
+                    d="M45.2361 28.9046L44.4631 27.8146C44.436 27.7764 44.3893 27.7041 44.3231 27.5978L42.5353 24.728C42.4691 24.6217 42.3977 24.5191 42.3212 24.4201L40.2548 21.7481C40.1783 21.6491 40.1119 21.5429 40.0556 21.4296L38.5363 18.3692C38.48 18.2559 38.4026 18.1575 38.3041 18.0742L35.6435 15.824C35.5449 15.7406 35.4604 15.6473 35.3899 15.5441L33.4858 12.7568C33.4153 12.6536 33.3445 12.5505 33.2735 12.4477L31.356 9.66998C31.2849 9.5671 31.2246 9.45667 31.1748 9.33868L29.8321 6.15293C29.7824 6.03494 29.703 5.93797 29.5941 5.86203L26.6522 3.81143C26.5433 3.73548 26.4676 3.67683 26.4252 3.63547L25.28 2.51868C25.2376 2.47731 25.177 2.50523 25.0983 2.60244L22.9723 5.22691C22.8935 5.32411 22.8175 5.42332 22.7441 5.52454L20.763 8.25737C20.6896 8.35858 20.6094 8.45465 20.5222 8.54559L18.1697 11.0007C18.0826 11.0916 18.0095 11.1931 17.9504 11.305L16.3557 14.3267C16.2966 14.4386 16.2244 14.5406 16.139 14.6329L13.8327 17.1226C13.7473 17.2148 13.6758 17.3175 13.6182 17.4305L12.0635 20.4821C12.006 20.5951 11.9287 20.6934 11.8317 20.777L9.21386 23.0338C9.11691 23.1174 9.02479 23.2046 8.93752 23.2954L6.58115 25.7477C6.49387 25.8385 6.39234 25.9925 6.27656 26.2098L4.71348 29.1427L4.65361 29.2228L4.64449 29.3224L4.4459 32.603C4.43119 32.846 4.41317 33.0293 4.39185 33.1528L3.81596 36.4892C3.79463 36.6128 3.78901 36.7378 3.7991 36.8643L4.07146 40.2783C4.08155 40.4047 4.07166 40.5294 4.0418 40.6522L3.23557 43.9675C3.20571 44.0902 3.18955 44.2143 3.18707 44.3396L3.12031 47.7226C3.11784 47.8479 3.10612 47.9723 3.08516 48.0959L2.51926 51.4333C2.4983 51.5568 2.49445 51.682 2.5077 51.8088L2.86552 55.2306C2.87877 55.3574 2.90353 55.4502 2.9398 55.5091L3.91903 57.0994C3.9553 57.1583 4.03593 57.1867 4.16093 57.1847L7.53593 57.1289C7.66093 57.1268 7.78593 57.1229 7.91093 57.1172L11.2859 56.9614C11.4109 56.9556 11.5359 56.9555 11.6609 56.9612L15.0359 57.1132C15.1609 57.1189 15.2859 57.1258 15.4109 57.134L18.7859 57.3564C18.9109 57.3646 19.0359 57.3648 19.1609 57.3569L22.5359 57.1441C22.6609 57.1362 22.7859 57.1278 22.9109 57.119L26.2859 56.8819C26.4109 56.8731 26.5359 56.8678 26.6609 56.8659L30.0359 56.8167C30.1609 56.8149 30.2859 56.8114 30.4109 56.8062L33.7859 56.6663C33.9109 56.6611 34.0359 56.673 34.1609 56.7022L37.5359 57.4893C37.6609 57.5185 37.7859 57.5162 37.9109 57.4826L41.2859 56.5737C41.4109 56.54 41.5359 56.5437 41.6609 56.5847L45.0359 57.6919C45.1609 57.7329 45.2279 57.6968 45.2369 57.5836L45.4794 54.5265C45.4884 54.4132 45.5025 54.2938 45.5219 54.1682L46.0443 50.7759C46.0637 50.6502 46.0599 50.5253 46.033 50.401L45.306 47.0464C45.2791 46.9222 45.2643 46.7976 45.2618 46.6726L45.1933 43.2981C45.1908 43.1732 45.1921 43.0481 45.1972 42.9228L45.3354 39.5421C45.3405 39.4169 45.3454 39.2917 45.3499 39.1665L45.473 35.7863C45.4776 35.6611 45.4759 35.5361 45.4681 35.4113L45.2556 32.0411C45.2477 31.9163 45.2352 31.805 45.2179 31.7072L44.7512 29.0668C44.7339 28.969 44.7338 28.9198 44.7508 28.9193L44.9807 28.9124L45.2392 29.0046L45.2361 28.9046ZM4.65361 29.2228L4.7536 29.222L4.65535 29.4451L4.65692 29.6451C4.65703 29.6599 4.70839 29.6546 4.81099 29.6291L7.58107 28.94C7.68366 28.9145 7.79751 28.908 7.92261 28.9206L11.3004 29.2607C11.4255 29.2733 11.5506 29.2854 11.6757 29.297L15.0532 29.6111C15.1783 29.6228 15.3033 29.6127 15.428 29.5809L18.7964 28.7223C18.9211 28.6905 19.0461 28.6885 19.1714 28.7163L22.5523 29.4655C22.6776 29.4933 22.8027 29.5099 22.9277 29.5154L26.304 29.6642C26.4291 29.6697 26.5541 29.6688 26.679 29.6613L30.0525 29.4613C30.1775 29.4539 30.3024 29.439 30.4272 29.4167L33.7976 28.8135C33.9224 28.7912 34.0474 28.7884 34.1725 28.8052L37.5512 29.2594C37.6763 29.2762 37.8014 29.2832 37.9264 29.2805L41.3009 29.2064C41.4259 29.2037 41.6099 29.1924 41.8531 29.1726L45.1361 28.9054L45.2361 28.9046"
+                />
+            </symbol>
+            <symbol id="i-check" viewBox="0 0 24 24">
+                <path d="M5 12l5 5 9-10" />
+            </symbol>
+            <symbol id="i-sparkle" viewBox="0 0 24 24">
+                <path
+                    d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"
+                />
+            </symbol>
+            <symbol id="i-pill" viewBox="0 0 24 24">
+                <path d="M10.5 20.5a5 5 0 0 1-7-7l9-9a5 5 0 0 1 7 7z" />
+                <path d="M8.5 8.5l7 7" />
+            </symbol>
+            <symbol id="i-video" viewBox="0 0 24 24">
+                <rect x="2" y="6" width="14" height="12" rx="3" />
+                <path d="M22 8l-6 4 6 4z" />
+            </symbol>
+            <symbol id="i-image" viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="3" />
+                <circle cx="9" cy="9" r="2" />
+                <path d="M21 15l-5-5L5 21" />
+            </symbol>
+            <symbol id="i-sun" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4" />
+                <path
+                    d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+                />
+            </symbol>
+            <symbol id="i-pulse" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </symbol>
+            <symbol id="i-thermo" viewBox="0 0 24 24">
+                <path d="M14 14.8V4a2 2 0 0 0-4 0v10.8a4 4 0 1 0 4 0z" />
+            </symbol>
+            <symbol id="i-pin" viewBox="0 0 24 24">
+                <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z" />
+                <circle cx="12" cy="10" r="3" />
+            </symbol>
+            <symbol id="i-leaf" viewBox="0 0 24 24">
+                <path
+                    d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"
+                />
+                <path d="M2 21c0-3 1.9-5.4 5.4-6.6" />
+            </symbol>
+            <symbol id="i-glasses" viewBox="0 0 24 24">
+                <circle cx="6" cy="15" r="4" />
+                <circle cx="18" cy="15" r="4" />
+                <path d="M14 15a2 2 0 0 0-4 0M2.5 13L5 7M21.5 13L19 7" />
+            </symbol>
+            <symbol id="i-clipboard" viewBox="0 0 24 24">
+                <rect x="5" y="3" width="14" height="18" rx="2" />
+                <path d="M9 3h6v3H9zM9 13h6M12 10v6" />
+            </symbol>
+            <symbol id="i-menu" viewBox="0 0 24 24">
+                <path d="M4 7h16M4 12h16M4 17h16" />
+            </symbol>
+            <symbol id="i-close" viewBox="0 0 24 24">
+                <path d="M6 6l12 12M18 6L6 18" />
+            </symbol>
+        </svg>
+
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <!-- ============ HEADER ============ -->
+        <header class="site-header">
+            <div class="site-header__inner">
+                <a class="logo" href="#top" aria-label="hal, back to top">
+                    <svg
+                        class="icon icon--logo"
+                        width="34"
+                        height="38"
+                        aria-hidden="true"
+                    >
+                        <use href="#i-home" />
+                    </svg>
+                    <span class="logo__word">hal</span>
+                </a>
+
+                <nav class="nav" id="site-nav" aria-label="Main">
+                    <a class="nav__link" href="#features">Features</a>
+                    <a class="nav__link" href="#emergency">Watch</a>
+                    <a class="nav__link" href="#how">How it works</a>
+                    <a class="nav__link" href="#pricing">Pricing</a>
+                    <a class="nav__link" href="#care">Care facilities</a>
+                </nav>
+
+                <a class="btn btn--primary site-header__cta" href="#pricing"
+                    >Get hal</a
+                >
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="site-nav"
+                    aria-label="Open menu"
+                >
+                    <svg
+                        class="icon icon--open"
+                        width="24"
+                        height="24"
+                        aria-hidden="true"
+                    >
+                        <use href="#i-menu" />
+                    </svg>
+                    <svg
+                        class="icon icon--close"
+                        width="24"
+                        height="24"
+                        aria-hidden="true"
+                    >
+                        <use href="#i-close" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- ============ HERO ============ -->
+            <section class="hero">
+                <div class="container hero__inner">
+                    <div class="hero__copy">
+                        <p class="badge">
+                            <svg
+                                class="icon"
+                                width="18"
+                                height="18"
+                                aria-hidden="true"
+                            >
+                                <use href="#i-sparkle" />
+                            </svg>
+                            <span>Your helper to automate your life</span>
+                        </p>
+                        <h1 class="hero__title">
+                            Independence for them. <em>Peace of mind</em> for
+                            you.
+                        </h1>
+                        <p class="hero__lead">
+                            hal is a connected tablet and smartwatch that helps
+                            elderly people live independently, while staying
+                            close to the family who loves them.
+                        </p>
+                        <div class="hero__actions">
+                            <a class="btn btn--lg btn--primary" href="#pricing"
+                                >Get hal, $249.99</a
+                            >
+                            <a class="btn btn--lg btn--outline" href="#how"
+                                >See how it works</a
+                            >
+                        </div>
+                        <p class="hero__note">
+                            <svg
+                                class="icon icon--bold"
+                                width="20"
+                                height="20"
+                                aria-hidden="true"
+                            >
+                                <use href="#i-check" />
+                            </svg>
+                            <span
+                                >Every customer gets
+                                <strong>one month of Premium free</strong
+                                >.</span
+                            >
+                        </p>
+                    </div>
+
+                    <!-- Decorative tablet + watch mockup -->
+                    <div class="mock" aria-hidden="true">
+                        <div class="tablet">
+                            <div class="tablet__screen">
+                                <div class="tablet__bar">
+                                    <div class="tablet__brand">
+                                        <svg
+                                            class="icon icon--logo"
+                                            width="20"
+                                            height="22"
+                                        >
+                                            <use href="#i-home" />
+                                        </svg>
+                                        <span>hal</span>
+                                    </div>
+                                    <div class="tablet__tabs">
+                                        <span class="is-active">Home</span>
+                                        <span>Weather</span>
+                                        <span>Health</span>
+                                        <span>Memory</span>
+                                        <span>Kitchen</span>
+                                    </div>
+                                    <span class="tablet__time">10:22</span>
+                                </div>
+
+                                <div class="home-card">
+                                    <div class="home-card__main">
+                                        <p class="home-card__greeting">
+                                            “What's a beautiful day!”
+                                        </p>
+                                        <div class="quote">
+                                            <p class="quote__label">
+                                                Quote of the day
+                                            </p>
+                                            <p class="quote__text">
+                                                Don't wait to be happy to smile.
+                                                Smile to be happy.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="home-card__photo">
+                                        <svg
+                                            class="photo-art"
+                                            viewBox="0 0 200 200"
+                                            preserveAspectRatio="xMidYMid slice"
+                                        >
+                                            <circle
+                                                cx="70"
+                                                cy="70"
+                                                r="34"
+                                                fill="#4F8A66"
+                                            />
+                                            <path
+                                                d="M10 170c0-34 26-56 60-56s60 22 60 56v30H10z"
+                                                fill="#4F8A66"
+                                            />
+                                            <circle
+                                                cx="140"
+                                                cy="84"
+                                                r="26"
+                                                fill="#76AC8A"
+                                            />
+                                            <path
+                                                d="M96 180c0-26 20-44 44-44s44 18 44 44v20H96z"
+                                                fill="#76AC8A"
+                                            />
+                                        </svg>
+                                        <div class="photo-caption">
+                                            <p class="photo-caption__small">
+                                                Today it's
+                                            </p>
+                                            <p class="photo-caption__name">
+                                                John
+                                            </p>
+                                            <p class="photo-caption__event">
+                                                Birthday!
+                                            </p>
+                                            <div class="photo-caption__actions">
+                                                <span class="chip chip--green"
+                                                    >Call John</span
+                                                >
+                                                <span class="chip chip--violet"
+                                                    >Send an Invitation</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tiles">
+                                    <div class="tile tile--weather">
+                                        <p class="tile__label">Weather</p>
+                                        <p class="tile__temp">
+                                            24<span>°C</span>
+                                        </p>
+                                        <p class="tile__quote">
+                                            “Let's find the perfect
+                                            <em>outfit</em> for today!”
+                                        </p>
+                                    </div>
+                                    <div class="tile tile--music">
+                                        <span
+                                            class="chip chip--green chip--self-start"
+                                            >Now playing</span
+                                        >
+                                        <div>
+                                            <p class="tile__song">
+                                                Your favorite song
+                                            </p>
+                                            <p class="tile__meta">
+                                                Music for the morning
+                                            </p>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress__bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tile tile--health">
+                                        <p class="tile__label">Health</p>
+                                        <p class="tile__quote">
+                                            “Don't forget to take your
+                                            <em>medication</em> at 11 AM”
+                                        </p>
+                                        <span
+                                            class="chip chip--cream chip--self-start"
+                                            >Time to drink some water!</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="watch-mini">
+                            <div
+                                class="watch-mini__strap watch-mini__strap--top"
+                            ></div>
+                            <div class="watch-mini__case">
+                                <div class="watch-mini__screen">
+                                    <span class="watch-mini__time">10:22</span>
+                                    <span class="watch-mini__sos">SOS</span>
+                                </div>
+                            </div>
+                            <div
+                                class="watch-mini__strap watch-mini__strap--bottom"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ PROBLEM ============ -->
+            <section class="section section--terra problem">
+                <div class="container container--narrow problem__inner">
+                    <p class="eyebrow">The problem</p>
+                    <h2 class="display display--problem">
+                        Taking care of elderly relatives isn't always easy.
+                    </h2>
+                    <p class="problem__text">
+                        Some families live far away. Others cannot afford
+                        expensive care services. Everyone wants the same thing:
+                        for the people they love to be safe, and to feel close.
+                    </p>
+                    <p class="problem__closing">That's why we created hal.</p>
+                </div>
+            </section>
+
+            <!-- ============ FEATURES ============ -->
+            <section class="section section--cream" id="features">
+                <div class="container container--stack">
+                    <div class="section-head">
+                        <p class="eyebrow eyebrow--terra">The tablet</p>
+                        <h2 class="display display--green">
+                            A home screen that makes every day <em>easier</em>.
+                        </h2>
+                        <p class="section-head__lead">
+                            A standard tablet running our own operating system,
+                            designed to be simple and accessible for elderly
+                            people. Big, clear, calm.
+                        </p>
+                    </div>
+
+                    <div class="cards-stack">
+                        <div class="cards">
+                            <article class="card card--wide card--green">
+                                <svg
+                                    class="icon"
+                                    width="40"
+                                    height="40"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-pill" />
+                                </svg>
+                                <div>
+                                    <h3 class="card__title">
+                                        Never miss a <em>medication</em>
+                                    </h3>
+                                    <p class="card__text card__text--narrow">
+                                        Gentle reminders for medication and
+                                        medical appointments, right on the home
+                                        screen where they can't be missed.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="card card--violet">
+                                <svg
+                                    class="icon"
+                                    width="40"
+                                    height="40"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-video" />
+                                </svg>
+                                <div>
+                                    <h3 class="card__title">
+                                        Family, one tap away
+                                    </h3>
+                                    <p class="card__text">
+                                        Video calls with the people who matter,
+                                        and invitations to share a special
+                                        moment together.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="cards">
+                            <article class="card card--terra">
+                                <svg
+                                    class="icon"
+                                    width="40"
+                                    height="40"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-image" />
+                                </svg>
+                                <div>
+                                    <h3 class="card__title">
+                                        Photos from home
+                                    </h3>
+                                    <p class="card__text">
+                                        When the tablet isn't in use, it
+                                        displays pictures sent by family
+                                        members, refreshed automatically every
+                                        month.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="card card--blue">
+                                <svg
+                                    class="icon"
+                                    width="40"
+                                    height="40"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-sun" />
+                                </svg>
+                                <div>
+                                    <h3 class="card__title">
+                                        Weather and online services
+                                    </h3>
+                                    <p class="card__text">
+                                        The tablet connects to the internet,
+                                        bringing the weather, online services
+                                        and social activities to the living
+                                        room.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="card card--deep">
+                                <div class="card__top">
+                                    <svg
+                                        class="icon"
+                                        width="40"
+                                        height="40"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-sparkle" />
+                                    </svg>
+                                    <span class="tag tag--violet">Premium</span>
+                                </div>
+                                <div>
+                                    <h3 class="card__title">
+                                        The <em>AI assistant</em>
+                                    </h3>
+                                    <p class="card__text">
+                                        Analyzes the data collected by the watch
+                                        and offers useful recommendations, from
+                                        staying hydrated to choosing the perfect
+                                        outfit.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ EMERGENCY / WATCH ============ -->
+            <section class="section section--deep emergency" id="emergency">
+                <div class="container emergency__inner">
+                    <div class="emergency__copy">
+                        <p class="eyebrow eyebrow--mint">The watch</p>
+                        <h2 class="display">
+                            But what happens in an <em>emergency</em>?
+                        </h2>
+                        <p class="emergency__lead">
+                            hal includes a connected watch with an emergency
+                            button. It detects falls and helps contact emergency
+                            services, transmitting important information such as
+                            the wearer's location.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <span class="feature-list__icon"
+                                    ><svg
+                                        class="icon"
+                                        width="24"
+                                        height="24"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-pulse" />
+                                    </svg>
+                                </span>
+                                <span
+                                    ><strong>Fall detection</strong> with a
+                                    built-in accelerometer</span
+                                >
+                            </li>
+                            <li>
+                                <span class="feature-list__icon"
+                                    ><svg
+                                        class="icon"
+                                        width="24"
+                                        height="24"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-thermo" />
+                                    </svg>
+                                </span>
+                                <span
+                                    ><strong>Skin temperature</strong>
+                                    monitoring</span
+                                >
+                            </li>
+                            <li>
+                                <span class="feature-list__icon"
+                                    ><svg
+                                        class="icon"
+                                        width="24"
+                                        height="24"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-pin" />
+                                    </svg>
+                                </span>
+                                <span
+                                    ><strong>Location shared</strong> with
+                                    emergency services</span
+                                >
+                            </li>
+                            <li>
+                                <span class="feature-list__icon"
+                                    ><svg
+                                        class="icon"
+                                        width="24"
+                                        height="24"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-leaf" />
+                                    </svg>
+                                </span>
+                                <span
+                                    >Designed with
+                                    <strong>recyclable materials</strong></span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="watch-stage" aria-hidden="true">
+                        <div class="watch-stage__glow"></div>
+                        <div class="watch">
+                            <div class="watch__strap watch__strap--top"></div>
+                            <div class="watch__case">
+                                <div class="watch__screen">
+                                    <span class="watch__time">10:22</span>
+                                    <span class="watch__sos">SOS</span>
+                                </div>
+                            </div>
+                            <div
+                                class="watch__strap watch__strap--bottom"
+                            ></div>
+                        </div>
+                        <span class="float-chip float-chip--a"
+                            >Fall detected</span
+                        >
+                        <span class="float-chip float-chip--b"
+                            >Location shared</span
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ HOW IT WORKS ============ -->
+            <section class="section section--cream" id="how">
+                <div class="container container--stack">
+                    <div class="section-head">
+                        <p class="eyebrow eyebrow--terra">How it works</p>
+                        <h2 class="display display--green">
+                            Everything works together to make life
+                            <em>safer</em>.
+                        </h2>
+                    </div>
+                    <ol class="steps">
+                        <li class="step">
+                            <span class="step__num">01</span>
+                            <h3 class="step__title">A simple tablet</h3>
+                            <p class="step__text">
+                                A standard tablet with our own operating system,
+                                specially designed to be simple and accessible.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <span class="step__num">02</span>
+                            <h3 class="step__title">A connected watch</h3>
+                            <p class="step__text">
+                                Sensors detect falls and monitor skin
+                                temperature, with an emergency button always
+                                within reach.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <span class="step__num">03</span>
+                            <h3 class="step__title">An assistant that helps</h3>
+                            <p class="step__text">
+                                The watch sends its data to the tablet, where
+                                our AI assistant analyzes it and gives useful
+                                recommendations.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <span class="step__num">04</span>
+                            <h3 class="step__title">Always connected</h3>
+                            <p class="step__text">
+                                Internet access brings online services, weather,
+                                family communication and emergency assistance.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- ============ AUDIENCE ============ -->
+            <section class="section section--green">
+                <div class="container container--stack">
+                    <div class="section-head section-head--wide">
+                        <p class="eyebrow eyebrow--light">Who it's for</p>
+                        <h2 class="display">
+                            Elderly people gain <em>independence</em>. Families
+                            gain <em>peace of mind</em>.
+                        </h2>
+                    </div>
+                    <div class="panels">
+                        <article class="panel">
+                            <h3 class="panel__title">Elderly people</h3>
+                            <p class="panel__text">
+                                A system made to be simple, so daily life stays
+                                in your own hands, at home, on your terms.
+                            </p>
+                        </article>
+                        <article class="panel">
+                            <h3 class="panel__title">
+                                People with disabilities
+                            </h3>
+                            <p class="panel__text">
+                                An operating system built from the start to be
+                                accessible, clear and easy to use.
+                            </p>
+                        </article>
+                        <article class="panel">
+                            <h3 class="panel__title">Families</h3>
+                            <p class="panel__text">
+                                Stay close even from far away, without the cost
+                                of expensive care services.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ PRICING ============ -->
+            <section class="section section--cream" id="pricing">
+                <div class="container container--stack">
+                    <div class="section-head">
+                        <p class="eyebrow eyebrow--terra">Pricing</p>
+                        <h2 class="display display--green">
+                            Simple pricing. <em>One month of Premium on us.</em>
+                        </h2>
+                    </div>
+
+                    <div class="kit">
+                        <div class="kit__copy">
+                            <p class="eyebrow eyebrow--mint">The equipment</p>
+                            <h3 class="kit__title">
+                                The hal kit: tablet and connected watch
+                            </h3>
+                            <ul class="check-list check-list--mint">
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="22"
+                                        height="22"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span
+                                        >Tablet running the hal operating
+                                        system</span
+                                    >
+                                </li>
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="22"
+                                        height="22"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span
+                                        >Connected watch with emergency button
+                                        and fall detection</span
+                                    >
+                                </li>
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="22"
+                                        height="22"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>One month of Premium, free</span>
+                                </li>
+                            </ul>
+                            <p class="kit__note">
+                                Prefer not to pay upfront? A rental option may
+                                be available.
+                            </p>
+                        </div>
+                        <div class="kit__buy">
+                            <p class="kit__price">$249.99</p>
+                            <!-- TODO: point this to your checkout, shop page or waitlist form -->
+                            <a class="btn btn--lg btn--light" href="#contact"
+                                >Order your hal</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="plans">
+                        <article class="plan">
+                            <h3 class="plan__name">Free</h3>
+                            <p class="plan__price">
+                                <span class="plan__amount">$0</span
+                                ><span class="plan__unit">forever</span>
+                            </p>
+                            <p class="plan__intro">
+                                The basics, always included:
+                            </p>
+                            <ul class="check-list">
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="20"
+                                        height="20"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>Calendars</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="20"
+                                        height="20"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>Medical appointment reminders</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="20"
+                                        height="20"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>Family calls</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article class="plan plan--premium">
+                            <div class="plan__head">
+                                <h3 class="plan__name">Premium</h3>
+                                <span class="tag tag--violet"
+                                    >First month free</span
+                                >
+                            </div>
+                            <p class="plan__price">
+                                <span class="plan__amount">$29.99</span
+                                ><span class="plan__unit">per month</span>
+                            </p>
+                            <p class="plan__intro">Everything in Free, plus:</p>
+                            <ul class="check-list">
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="20"
+                                        height="20"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>The hal AI assistant</span>
+                                </li>
+                                <li>
+                                    <svg
+                                        class="icon icon--bold"
+                                        width="20"
+                                        height="20"
+                                        aria-hidden="true"
+                                    >
+                                        <use href="#i-check" />
+                                    </svg>
+                                    <span>Additional premium features</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article class="plan" id="care">
+                            <h3 class="plan__name">Care facilities</h3>
+                            <p class="plan__price">
+                                <span class="plan__amount">Group</span
+                                ><span class="plan__unit">plans</span>
+                            </p>
+                            <p class="plan__intro">
+                                Special group subscriptions for nursing homes
+                                and care facilities, with pricing based on the
+                                number of residents and the services you select.
+                            </p>
+                            <a
+                                class="btn btn--outline plan__cta"
+                                href="#contact"
+                                >Request a demo</a
+                            >
+                        </article>
+                    </div>
+
+                    <div class="where">
+                        <div class="where__item">
+                            <h3 class="where__title">Online</h3>
+                            <p class="where__text">
+                                Discover hal, explore its features and order
+                                directly on this site.
+                            </p>
+                        </div>
+                        <div class="where__item">
+                            <h3 class="where__title">In pharmacies</h3>
+                            <p class="where__text">
+                                We're planning to bring hal to pharmacies, in
+                                familiar places close to home.
+                            </p>
+                        </div>
+                        <div class="where__item">
+                            <h3 class="where__title">In care facilities</h3>
+                            <p class="where__text">
+                                Nursing homes can try hal with a free
+                                demonstration device.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ FUTURE ============ -->
+            <section class="section section--green">
+                <div class="container container--stack">
+                    <div class="section-head">
+                        <p class="eyebrow eyebrow--light">Looking ahead</p>
+                        <h2 class="display">
+                            hal is only the <em>beginning</em>.
+                        </h2>
+                    </div>
+                    <div class="roadmap">
+                        <article class="roadmap__card">
+                            <div class="roadmap__top">
+                                <svg
+                                    class="icon"
+                                    width="44"
+                                    height="44"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-glasses" />
+                                </svg>
+                                <span class="tag tag--soft"
+                                    >On our roadmap</span
+                                >
+                            </div>
+                            <h3 class="roadmap__title">Connected glasses</h3>
+                            <p class="roadmap__text">
+                                Augmented reality glasses that display useful
+                                information right in front of the user's eyes:
+                                reminders, names and directions.
+                            </p>
+                        </article>
+                        <article class="roadmap__card">
+                            <div class="roadmap__top">
+                                <svg
+                                    class="icon"
+                                    width="44"
+                                    height="44"
+                                    aria-hidden="true"
+                                >
+                                    <use href="#i-clipboard" />
+                                </svg>
+                                <span class="tag tag--soft"
+                                    >On our roadmap</span
+                                >
+                            </div>
+                            <h3 class="roadmap__title">
+                                A tablet for healthcare professionals
+                            </h3>
+                            <p class="roadmap__text">
+                                A dedicated tablet that lets caregivers monitor
+                                residents and access important information more
+                                easily.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ FINAL CTA ============ -->
+            <section class="section section--terra cta">
+                <div class="container container--cta">
+                    <h2 class="display display--cta">
+                        hal combines technology and humanity, because one day,
+                        <em>we will all be in their place</em>.
+                    </h2>
+                    <p class="cta__text">
+                        A solution for families who want to take better care of
+                        their parents and grandparents, while letting them stay
+                        independent.
+                    </p>
+                    <div class="cta__actions">
+                        <a class="btn btn--lg btn--light" href="#pricing"
+                            >Get hal, $249.99</a
+                        >
+                        <a
+                            class="btn btn--lg btn--outline-light"
+                            href="#contact"
+                            >Request a demo</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="site-footer" id="contact">
+            <div class="container site-footer__inner">
+                <div class="site-footer__top">
+                    <div class="site-footer__brand">
+                        <a
+                            class="logo logo--light"
+                            href="#top"
+                            aria-label="hal, back to top"
+                        >
+                            <svg
+                                class="icon icon--logo"
+                                width="30"
+                                height="34"
+                                aria-hidden="true"
+                            >
+                                <use href="#i-home" />
+                            </svg>
+                            <span class="logo__word">hal</span>
+                        </a>
+                        <p>Your helper to automate your life.</p>
+                    </div>
+                    <nav class="site-footer__nav" aria-label="Footer">
+                        <a href="#features">Features</a>
+                        <a href="#emergency">Watch</a>
+                        <a href="#how">How it works</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#care">Care facilities</a>
+                    </nav>
+                    <div class="site-footer__contact">
+                        <span class="site-footer__contact-title">Contact</span>
+                        <!-- TODO: replace with your real address, e.g. <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a> -->
+                        <span>[YOUR CONTACT EMAIL]</span>
+                    </div>
+                </div>
+                <p class="site-footer__legal">
+                    © <span id="year">2026</span> hal. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
